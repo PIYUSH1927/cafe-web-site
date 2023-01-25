@@ -18,12 +18,12 @@ body {
     font-style:italic;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
-  
   nav {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(223, 223, 19);
     padding: 15px;
     color: black;
+    box-shadow: -40px 30px 20px -50px rgb(0,0,0,1);
   }
   nav ul {
     list-style-type: none;
@@ -64,10 +64,9 @@ body {
   }
   .jj{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 500px;
+    width: 550px;
     font-weight:1;
     font-size: 20px;
-    right: 600px;
     padding-top: 13px;
   }
   .btn{
