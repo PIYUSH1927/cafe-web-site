@@ -25,6 +25,11 @@ body {
     color: black;
     box-shadow: -40px 30px 20px -50px rgb(0,0,0,1);
   }
+  .new{
+    background-color:red;
+    
+    padding: 5px;
+  }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -52,8 +57,7 @@ body {
 
   }
   .FFC{
-    font-family: 'Irish Grover', cursive;
-    font-style: cursive;
+    font-family: 'Sedgwick Ave', cursive;
     position: relative;
     color:white;
     font-weight: bold;
@@ -137,7 +141,7 @@ body {
     text-decoration: underline;
     margin-bottom: 50px;
     color: white;
-    font-family: 'Irish Grover', cursive;
+    font-family: 'Sedgwick Ave', cursive;
     font-size: 50px;
   }
   
