@@ -23,7 +23,6 @@ body {
     background-color:rgb(223, 223, 19);
     padding: 15px;
     color: black;
-    box-shadow: -40px 30px 20px -50px rgb(0,0,0,1);
   }
   .new{
     background-color:red;
@@ -56,6 +55,13 @@ body {
    left: 420px;
 
   }
+  .logo{
+    position: relative;
+    height: 200px;
+    width: 220px;
+    bottom: 670px;
+    left: 250px;
+  }
   .FFC{
     font-family: 'Sedgwick Ave', cursive;
     position: relative;
@@ -63,10 +69,12 @@ body {
     font-weight: bold;
     font-style: oblique;
     font-size: 50px;
-    bottom: 500px;
-    left: 125px;
+    bottom: 650px;
+    right: 45px;
   }
   .jj{
+    position: relative;
+    left: 140px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 550px;
     font-weight:1;
@@ -77,7 +85,7 @@ body {
     width: 140px;
     height: 40px;
     font-weight: bold;
-    margin-left: 150px;
+    margin-left: 330px;
     background-color: rgb(223, 223, 19);
     border-radius: 20px;
   }
@@ -97,18 +105,26 @@ body {
     font-size: 20px;
     
   }
-  #about{
+  .about{
     position: relative;
-    bottom: 120px;
-    color: white;
-    background-color: #271915;
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(223, 223, 19);
+    bottom: 165px;
+    padding-top: 100px;
+    color: black;
     text-align: center;
-    width: 1000px;
-    margin-left: 250px;
+    margin-left: 130px;
     padding: auto;
+    box-shadow: -40px 30px 20px rgb(193, 173, 173);
+  }
+  .about h2{
+    color: black;
   }
   .text1{
     line-height: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
   }
   .box{
     height: 250px;
@@ -136,7 +152,7 @@ body {
     padding-top: 40px;
     text-align: center;
   }
-  section h2 {
+ h2 {
     text-align: center;
     text-decoration: underline;
     margin-bottom: 50px;
