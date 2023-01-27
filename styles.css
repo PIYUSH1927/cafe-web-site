@@ -8,7 +8,6 @@ body {
     text-align: center;
   }
   .yo{
-    
     margin-left: 100px;
     float: left;
     font-size: 50px;
@@ -21,12 +20,16 @@ body {
   nav {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(223, 223, 19);
-    padding: 15px;
+    padding: 17px;
     color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
   }
   .new{
     background-color:red;
-    
+    position: sticky;
+    top: 58px;
     padding: 5px;
   }
   nav ul {
@@ -127,7 +130,7 @@ body {
     font-style: italic;
   }
   .box{
-    height: 250px;
+    height: 240px;
     width: 170px;
     background-color: rgb(223, 223, 19);
     padding:50px;
@@ -149,13 +152,13 @@ body {
     font-size: large;
   }
   #contact{
-    padding-top: 40px;
+    padding-top: 10px;
     text-align: center;
   }
  h2 {
     text-align: center;
     text-decoration: underline;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color: white;
     font-family: 'Sedgwick Ave', cursive;
     font-size: 50px;
@@ -165,6 +168,6 @@ body {
     background-color: rgb(210, 210, 199);;
     color: black;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
   }
   
