@@ -47,7 +47,7 @@ body {
     color: red;
   }
 
-  @media screen and (max-width:768px){
+  @media screen and (max-width:1000px) {
     .yo{
       position: relative;
       bottom: 32px;
@@ -172,6 +172,63 @@ body {
     
     }
   }
+  @media only screen and (min-width:530px) and (max-width:900px){
+    .anima{
+      width: 580px;
+      height: 760px;
+       position: relative;
+       left: 92px;
+       top: 55px;
+       overflow-x: hidden;
+       }
+     .logo{
+      position:relative;
+      height: 200px;
+      width: 200px;
+      bottom: 750px;
+      left: 285px;
+    }
+    .FFC{
+      padding-top: 10px;
+      font-family: 'Sedgwick Ave', cursive;
+      position: relative;
+      color:white;
+      font-weight: bold;
+      font-style: oblique;
+      font-size: 35px;
+      bottom: 810px;
+      left: 267px;
+    }
+    .jj{
+      position: relative;
+      right: 40px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 300px;
+      font-weight:1;
+      font-size: 13px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      text-align: center;
+    }
+   
+    .btn{
+      margin-top: 10px;
+      width: 100px;
+      height: 30px;
+      font-weight: normal;
+      margin-left: 60px;
+      background-color: rgb(223, 223, 19);
+      border-radius: 20px;
+    }
+    .btn:hover{
+      background-color: white;
+    }
+    .yolo{
+      margin-top: 0px;
+      background-color:#271915
+    
+    }
+  }
 
   main {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -210,6 +267,7 @@ body {
   }
 
   @media only screen and (max-width:530px){
+    
     .about{
       width: 320px;
       height: 700px;
@@ -241,6 +299,35 @@ body {
       font-style: italic;
     }
   }
+  @media only screen and (min-width:530px) and (max-width:900px){
+    
+    .about{
+      width: 520px;
+      height: 600px;
+      background-color: rgb(223, 223, 19);
+      padding-top: 8px;
+      color: black;
+      position: relative;
+      right:5px;
+      box-shadow: -40px 30px 20px rgb(193, 173, 173);
+    }
+    .about h1{
+      text-align: center;
+      color: black;
+      position:relative;
+      bottom: 80px;
+      left: 0px;
+      margin-right: 200px;
+      white-space: nowrap;
+     
+    }
+    .about p{
+      position: relative;
+      bottom: 180px;
+      font-size: medium;
+      
+    }
+  }
   .box{
     height: 240px;
     width: 170px;
@@ -265,7 +352,66 @@ body {
     font-size: large;
   }
 
+  @media only screen and (min-width:530){
+    .box{
+      height: 240px;
+      width: 170px;
+      background-color: rgb(223, 223, 19);
+      padding:50px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      display: inline-block;
+      box-shadow: -40px 30px 20px  rgb(0,0,0,1);
+    }
+    .imgs{
+      position: relative;
+      height: 220px;
+      width: 220px;
+      bottom: 20px;
+      right: 27px
+    }
+    #menu{
+      margin-top: 150px;
+      color: black;
+      text-align: center;
+      font-size: large;
+    }
+  }
+
   @media only screen and (max-width:530px){
+    #menu{
+      margin-top: 100px;
+      color: black;
+      text-align: center;
+      font-size: large;
+    }
+    .box{
+      height: 150px;
+      width: 50px;
+      background-color: rgb(223, 223, 19);
+      display: inline-block;
+      font-size: 12px;
+      padding:50px;
+      margin: auto;
+      margin-bottom: 20px;
+      white-space: nowrap;
+      box-shadow: 0px 0px 0px  rgb(0,0,0,0);
+    }
+    .box b{
+      position: relative;
+      right: 5px;
+    }
+
+    .imgs{
+      position: relative;
+      height: 140px;
+      width: 130px;
+      right: 40px;
+      bottom: 30px;
+      
+    }
+  }
+  @media only screen and (min-width:530px) and (max-width:900px){
     #menu{
       margin-top: 100px;
       color: black;
@@ -324,7 +470,7 @@ body {
   }
 
   footer {
-    background-color: rgb(210, 210, 199);;
+    background-color: rgb(210, 210, 199);
     color: black;
     text-align: center;
     padding: 10px;
