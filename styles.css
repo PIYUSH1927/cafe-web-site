@@ -97,6 +97,7 @@ body {
   }
   .heading{
     float: left;
+    width: 50%;
   }
   .btn{
     width: 140px;
@@ -122,7 +123,7 @@ body {
      position: relative;
      left: 9px;
      top: 90px;
-     overflow-x: hidden;
+     overflow: hidden;
      }
      .logo{
       position:relative;
@@ -179,7 +180,6 @@ body {
        position: relative;
        left: 92px;
        top: 55px;
-       overflow-x: hidden;
        }
      .logo{
       position:relative;
@@ -225,8 +225,7 @@ body {
     }
     .yolo{
       margin-top: 0px;
-      background-color:#271915
-    
+      background-color:#271915;
     }
   }
 
@@ -252,7 +251,7 @@ body {
     color: black;
     position: relative;
     margin-top: 110px;
-    left: 60px;
+    right: 110px;
     padding-bottom: 20px;
     font-family: 'Sedgwick Ave', cursive;
     text-decoration: underline;
@@ -283,16 +282,14 @@ body {
       text-align: center;
       color: black;
       position:relative;
-      bottom: 200px;
-      left: 0px;
-      right: 70px;
-      
-     
+      bottom: 80px;
+      right: 80px;
+      white-space: nowrap;
     }
     .about p{
       font-size: medium;
       position: relative;
-      bottom: 290px;
+      bottom: 165px;
       line-height: 20px;
       padding: 20px;
       font-family:Georgia, 'Times New Roman', Times, serif;
@@ -316,8 +313,6 @@ body {
       color: black;
       position:relative;
       bottom: 80px;
-      left: 0px;
-      margin-right: 200px;
       white-space: nowrap;
      
     }
